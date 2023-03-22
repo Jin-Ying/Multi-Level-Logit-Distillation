@@ -1,5 +1,5 @@
 
-##Code release for Multi-level Logit Distillation (CVPR2023).
+## Code release for Multi-level Logit Distillation (CVPR2023).
 
 The code is built on [mdistiller](<https://github.com/megvii-research/mdistiller>).
 

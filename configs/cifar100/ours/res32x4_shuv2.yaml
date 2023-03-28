@@ -1,14 +1,14 @@
 EXPERIMENT:
   NAME: ""
   TAG: "kd_ours,res32x4,shuv2"
-  PROJECT: "cifar100_baselines"
+  PROJECT: "cifar100_baselines_epoch960"
 DISTILLER:
   TYPE: "KD_ours"
   TEACHER: "resnet32x4"
   STUDENT: "ShuffleV2"
 SOLVER:
   BATCH_SIZE: 64
-  EPOCHS: 480
+  EPOCHS: 960
   LR: 0.01
   LR_DECAY_STAGES: [150, 180, 210]
   LR_DECAY_RATE: 0.1
